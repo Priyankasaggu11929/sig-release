@@ -1,0 +1,26 @@
+# Exception requests in 1.25
+# Google Group: https://groups.google.com/forum/#!forum/kubernetes-sig-release
+# Release Team Lead: Cici Huang ([@cici37](https://github.com/cici37))
+# Release Team Shadows: Xander Grzywinski ([@Xander](https://github.com/salaxander) 
+# / Grace Nguyen([@Grace Nguyen](https://github.com/gracenng) 
+# / Leonard Vincent Simon Pahlke ([@leonardpahlke](https://github.com/leonardpahlke) 
+# / Jesse Butler ([@Jesse Butler](https://github.com/jlbutler)
+​
+# Enhancements Freeze Exceptions requested in 1.25
+- name: "Add configurable grace period to probes"
+  issue: 2238
+  date_requested: 2022-06-27
+  date_reviewed: 2022-06-27
+  thread: "https://groups.google.com/a/kubernetes.io/g/release-team/c/q3DEjydRniQ/m/RXpUdzDUAQAJ"
+  pull_requests:
+    - "https://github.com/kubernetes/enhancements/pull/3408"
+  status: "approved"
+​
+- name: ""
+  issue: 
+  date_requested: 
+  thread: ""
+  pull_requests:
+    - ""
+  status: "approved/not-approved"
+​
