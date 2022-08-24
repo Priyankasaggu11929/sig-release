@@ -8,7 +8,13 @@ description: |
   Release Team contact information, tracking spreadsheets and more!
 ---
 
-# Kubernetes 1.25
+# Kubernetes 1.25: Combiner
+
+<p align="center">
+  <img src="./logo/main-logo.png" height="500" alt="Kubernetes 1.25 Release Logo" />
+</p>
+
+Kubernetes 1.25 is named *Combiner*, to the combined force capable of changing the world!
 
 #### Links
 
@@ -62,7 +68,7 @@ The 1.25 release cycle is as follows:
 | **Begin [Enhancements Freeze]**                               | Enhancements Lead | 01:00 UTC Friday 24th June 2022 / 18:00 PDT Thursday 23rd June 2022                                             | week 5   | [master-blocking], [master-informing] |
 | 1.25.0-alpha.2 released                                       | Branch Manager | Tuesday 28th June 2022                                                                                                             | Week 6   | |
 | Begin Friday APAC-friendly meetings                           | Lead | Friday 8th July 2022                                                                                            | Week 7   | |
-| 1.25.0-alpha.3 released                                       | Branch Manager | Tuesday 9th July 2022                                                                                               | Week 9   | |
+| 1.25.0-alpha.3 released                                       | Branch Manager | Tuesday 19th July 2022                                                                                               | Week 9   | |
 | **Begin [Burndown]** (Monday, Wednesday, and Friday meetings) | Lead | Monday 25th July 2022                                                                                           | week 10  | [1.25-blocking], [master-blocking], [master-informing] |
 | **Call for [Exceptions][Exception]**                          | Lead | Monday 25th July 2022                                                                                           | week 10  | |
 | Brace Yourself, Code Freeze is Coming                         | Comms / Bug Triage | Monday 25th July 2022                                                                                           | week 10  | |
@@ -70,7 +76,7 @@ The 1.25 release cycle is as follows:
 | Release retrospective part 1                                  | Community | 17:00 UTC Wednesday 27th July 2022 / 10:00 PDT Wednesday 27th July 2022                                         | week 10  | |
 | Burndown Meetings daily                                       | Lead | Monday 1st August 2022                                                                                          | week 11  | |
 | **Begin [Code Freeze]**                                       | Branch Manager | 01:00 UTC Wednesday 3rd August 2022 / 02:00 BST Wednesday 3rd August 2022 / 18:00 PDT Tuesday 2nd August 2022   | week 11  | |
-| 1.25.0-beta.0 released                                        | Branch Manager | Wednesday 3rd August 2022                                                                                              | week 11  | |
+| 1.25.0-beta.0 released                                        | Branch Manager | Thursday 4th August 2022                                                                                              | week 11  | |
 | Docs deadline — Open placeholder PRs                          | Docs Lead | Thursday 4th August 2022                                                                                        | week 11  | |
 | Deprecations and Removals blog published                      | Comms | Thursday 4th August 2022                                                                                        | week 11  | |
 | **[Test Freeze]**                                             | Branch Manager | 01:00 UTC Wednesday 10th August 2022 / 02:00 BST Wednesday 10th August 2022 / 18:00 PDT Tuesday 9th August 2022 | week 12  | |
@@ -84,7 +90,7 @@ The 1.25 release cycle is as follows:
 | Docs complete — All PRs reviewed and ready to merge           | Docs Lead | Tuesday 16th August 2022                                                                                        | week 13  | |
 | Feature blogs ready to review                                 | Enhancement Owner / SIG Leads | Tuesday 16th August 2022                                                                                        | week 13  | |
 | 1.25.0-rc.1 released                                          | Branch Manager | Tuesday 16th August 2022                                                                                                      | week 13  | |
-| Release Notes complete — reviewed & merged to `k/sig-release` | Release Notes Lead | 01:00 UTC Friday 19th August 2022 / 02:00 BST Friday 19th August 2022 / 18:00 PDT Thursday 18th August 2022     | week 13  | |
+| Release Notes complete — reviewed & merged to `k/k` | Release Notes Lead | 01:00 UTC Friday 19th August 2022 / 02:00 BST Friday 19th August 2022 / 18:00 PDT Thursday 18th August 2022     | week 13  | |
 | **v1.25.0 released**                                          | Branch Manager | Tuesday 23rd August 2022                                                                                        | week 14  | |
 | Release blog published                                        | Comms | Tuesday 23rd August 2022                                                                                        | week 14  | |
 | **[Thaw]**                                                    | Branch Manager | Tuesday 23rd August 2022                                                                                        | week 14  | |
