@@ -19,19 +19,24 @@
 
 set -eu -o pipefail
 
-ORGANIZATION="kubernetes"
-REPOSITORY="kubernetes"
+: "${ORGANIZATION:=kubernetes}"
+: "${REPOSITORY:=kubernetes}"
 
-PROJECT_NUMBER=${GITHUB_PROJECT_BETA_NUMBER:-}
-MILESTONE=${RELEASE_MILESTONE:-}
+PROJECT_NUMBER=${PROJECT_NUMBER:-}
+MILESTONE=${MILESTONE:-}
+
+if [ "${GITHUB_TOKEN:-}" == "" ]; then
+      echo "[Error] Required environment variable \"GITHUB_TOKEN\" is not set."
+      exit 1
+fi
 
 if [ "$PROJECT_NUMBER" == "" ]; then
-      echo "[Error] Required environment variable \"GITHUB_PROJECT_BETA_NUMBER\" is not set."
+      echo "[Error] Required environment variable \"PROJECT_NUMBER\" is not set."
       exit 1
 fi
 
 if [ "$MILESTONE" == "" ]; then
-      echo "[Error] Required environment variable \"RELEASE_MILESTONE\" is not set."
+      echo "[Error] Required environment variable \"MILESTONE\" is not set."
       exit 1
 fi
 
